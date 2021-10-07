@@ -42,6 +42,11 @@ public:
 screen mainscreen;
 int main()
 {
+      symbol a("      ","      ","   /\\   ","  /  \\  "," /____\\ ","/      \\");
+       mainscreen.add(a);
+       mainscreen.add(a);
+
     mainscreen.print();
     return 0;
 }
+

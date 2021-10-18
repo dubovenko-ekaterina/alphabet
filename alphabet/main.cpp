@@ -48,10 +48,12 @@ int main()
     symbol b( "|-----| " ,  "|     | " ,  "|_____  " ,  "|     | " ,  "|     | " ,  "|_____| ");
     symbol d(" ||""""]   "," ||     ]  "," ||      ] "," ||      ] "," ||     ]  "," ||____]   ");
     symbol f(" _______ "," ||      "," ||_____ "," ||      "," ||      "," ||      ");
+    symbol h(" ||     || "," ||     || "," ||_____|| "," ||     || "," ||     || "," ||     || ");
     mainscreen.add(a);
     mainscreen.add(b);
     mainscreen.add(d);
     mainscreen.add(f);
+     mainscreen.add(h);
     mainscreen.print();
     return 0;
 }

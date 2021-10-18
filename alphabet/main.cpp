@@ -42,7 +42,7 @@ public:
 screen mainscreen;
 int main()
 {
-      symbol a("      ","      ","   /\\   ","  /  \\  "," /____\\ ","/      \\");
+      symbol a(" ||     || "," ||     || "," ||_____|| "," ||     || "," ||     || "," ||     || ");
        mainscreen.add(a);
        mainscreen.add(a);
 

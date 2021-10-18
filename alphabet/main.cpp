@@ -42,9 +42,9 @@ public:
 screen mainscreen;
 int main()
 {
-      symbol a("      ","      ","   /\\   ","  /  \\  "," /____\\ ","/      \\");
-       mainscreen.add(a);
-       mainscreen.add(a);
+      symbol f(" _______ "," ||      "," ||_____ "," ||      "," ||      "," ||      ");
+       mainscreen.add(f);
+       mainscreen.add(f);
 
     mainscreen.print();
     return 0;
